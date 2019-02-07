@@ -6,16 +6,33 @@
 ; (deftemplate Contexture (slot contexture))
 ; (deftemplate Size (slot size))
 ; (deftemplate Shape (slot shape))
-(deftemplate Element (slot kind (type STRING)) (slot eColor (type STRING)) (slot iColor (type STRING)) (slot taste (type STRING)) (slot contexture (type STRING)) (slot size (type STRING)) (slot shape (type STRING)))
+(deftemplate Element (slot class (type STRING)) (slot eColor (type STRING)) (slot iColor (type STRING)) (slot taste (type STRING)) (slot contexture (type STRING)) (slot size (type STRING)) (slot shape (type STRING)) (slot InSeed (type STRING)) )
 
 ;;Rules
-(defrule r0 "this rules define a apple" (Element {kind == "Fruit"}) => (printout t "yes" crlf))
-
-
-
-
-
-
+(defrule  rule_olive "description" (Element {class == "fruit"}  {eColor == "green,purple"}  {iColor == "green"}  {taste == "sour"}  {contexture == "medium"}  {size == "small"}  {shape == "circular"}  {InSeed == "y"} )=>(printout t "olive" crlf))
+(defrule  rule_coconut "description" (Element {class == "fruit"}  {eColor == "brown"}  {iColor == "white"}  {taste == "unknown"}  {contexture == "hard"}  {size == "big"}  {shape == "circular"}  {InSeed == "n"} )=>(printout t "coconut" crlf))
+(defrule  rule_cocoa "description" (Element {class == "fruit"}  {eColor == "brown,yellow"}  {iColor == "white,brown"}  {taste == "bitter"}  {contexture == "medium"}  {size == "medium"}  {shape == "oval"}  {InSeed == "y"} )=>(printout t "cocoa" crlf))
+(defrule  rule_avocado "description" (Element {class == "fruit"}  {eColor == "green,black"}  {iColor == "green,yellow"}  {taste == "unknown"}  {contexture == "soft"}  {size == "medium"}  {shape == "oval"}  {InSeed == "y"} )=>(printout t "avocado" crlf))
+(defrule  rule_almond "description" (Element {class == "fruit"}  {eColor == "brown"}  {iColor == "white"}  {taste == "unknown"}  {contexture == "hard"}  {size == "small"}  {shape == "oval"}  {InSeed == "y"} )=>(printout t "almond" crlf))
+(defrule  rule_peanut "description" (Element {class == "fruit"}  {eColor == "yellow"}  {iColor == "yellow"}  {taste == "unknown"}  {contexture == "hard"}  {size == "small"}  {shape == "oval"}  {InSeed == "y"} )=>(printout t "peanut" crlf))
+(defrule  rule_banana "description" (Element {class == "fruit"}  {eColor == "yellow"}  {iColor == "white"}  {taste == "sweet"}  {contexture == "soft"}  {size == "medium"}  {shape == "thin"}  {InSeed == "n"} )=>(printout t "banana" crlf))
+(defrule  rule_cherry "description" (Element {class == "fruit"}  {eColor == "red"}  {iColor == "red"}  {taste == "sweet"}  {contexture == "medium"}  {size == "small"}  {shape == "circular"}  {InSeed == "y"} )=>(printout t "cherry" crlf))
+(defrule  rule_melon "description" (Element {class == "fruit"}  {eColor == "orange"}  {iColor == "orange"}  {taste == "sweet"}  {contexture == "medium"}  {size == "big"}  {shape == "circular"}  {InSeed == "y"} )=>(printout t "melon" crlf))
+(defrule  rule_pear "description" (Element {class == "fruit"}  {eColor == "green,brown"}  {iColor == "white"}  {taste == "sweet"}  {contexture == "medium"}  {size == "medium"}  {shape == "circular"}  {InSeed == "y"} )=>(printout t "pear" crlf))
+(defrule  rule_water_melon "description" (Element {class == "fruit"}  {eColor == "green"}  {iColor == "red"}  {taste == "sweet"}  {contexture == "medium"}  {size == "very big"}  {shape == "oval"}  {InSeed == "y"} )=>(printout t "water melon" crlf))
+(defrule  rule_grape "description" (Element {class == "fruit"}  {eColor == "green,purple,red"}  {iColor == "green"}  {taste == "sweet,sour"}  {contexture == "medium"}  {size == "small"}  {shape == "circular"}  {InSeed == "y"} )=>(printout t "grape" crlf))
+(defrule  rule_pineapple "description" (Element {class == "fruit"}  {eColor == "yellow"}  {iColor == "yellow"}  {taste == "sweet,sour"}  {contexture == "medium"}  {size == "big"}  {shape == "oval"}  {InSeed == "y"} )=>(printout t "pineapple" crlf))
+(defrule  rule_kiwi "description" (Element {class == "fruit"}  {eColor == "brown"}  {iColor == "green"}  {taste == "sweet,sour"}  {contexture == "medium"}  {size == "medium"}  {shape == "circular"}  {InSeed == "y"} )=>(printout t "kiwi" crlf))
+(defrule  rule_passion_fruit "description" (Element {class == "fruit"}  {eColor == "yellow"}  {iColor == "yellow"}  {taste == "sour"}  {contexture == "medium"}  {size == "medium"}  {shape == "circular"}  {InSeed == "y"} )=>(printout t "passion fruit" crlf))
+(defrule  rule_orange "description" (Element {class == "fruit"}  {eColor == "orange"}  {iColor == "orange"}  {taste == "sweet,sour"}  {contexture == "medium"}  {size == "medium"}  {shape == "circular"}  {InSeed == "y"} )=>(printout t "orange" crlf))
+(defrule  rule_lemon "description" (Element {class == "fruit"}  {eColor == "yellow,green"}  {iColor == "yellow,green"}  {taste == "sour"}  {contexture == "medium"}  {size == "medium"}  {shape == "circular"}  {InSeed == "y"} )=>(printout t "lemon" crlf))
+(defrule  rule_tomato "description" (Element {class == "fruit"}  {eColor == "red"}  {iColor == "red"}  {taste == "sour"}  {contexture == "medium"}  {size == "medium"}  {shape == "circular"}  {InSeed == "y"} )=>(printout t "tomato" crlf))
+(defrule  rule_mandarin "description" (Element {class == "fruit"}  {eColor == "orange,green"}  {iColor == "orange"}  {taste == "sweet,sour"}  {contexture == "medium"}  {size == "medium"}  {shape == "circular"}  {InSeed == "y"} )=>(printout t "mandarin" crlf))
+(defrule  rule_peach "description" (Element {class == "fruit"}  {eColor == "red"}  {iColor == "yellow"}  {taste == "sweet"}  {contexture == "medium"}  {size == "medium"}  {shape == "circular"}  {InSeed == "y"} )=>(printout t "peach" crlf))
+(defrule  rule_guayaba "description" (Element {class == "fruit"}  {eColor == "yellow,green"}  {iColor == "red"}  {taste == "sweet,sour"}  {contexture == "medium"}  {size == "medium"}  {shape == "circular"}  {InSeed == "y"} )=>(printout t "guayaba" crlf))
+(defrule  rule_mango "description" (Element {class == "fruit"}  {eColor == "green,yellow,red"}  {iColor == "yellow,green"}  {taste == "sweet,sour"}  {contexture == "medium"}  {size == "medium"}  {shape == "circular"}  {InSeed == "y"} )=>(printout t "mango" crlf))
+(defrule  rule_raspberry "description" (Element {class == "fruit"}  {eColor == "red,purple"}  {iColor == "red,purple"}  {taste == "sour"}  {contexture == "medium"}  {size == "small"}  {shape == "circular"}  {InSeed == "y"} )=>(printout t "raspberry" crlf))
+(defrule  rule_apple "description" (Element {class == "fruit"}  {eColor == "green,red,yellow"}  {iColor == "white"}  {taste == "sweet,sour"}  {contexture == "medium"}  {size == "medium"}  {shape == "circular"}  {InSeed == "y"} )=>(printout t "apple" crlf))
 
 ;;init app
 (reset)
