@@ -1,1 +1,12 @@
-﻿name,class,eColor(s),iColor(s),taste(s),contexture,size,shape
+﻿name,class,eColor(s),iColor(s),taste(s),contexture,size,shape,subcategory
+lettice,vegetable,green,white,unknown,soft,medium,leaf,leaf
+cauliflower,vegetable,white,white,unknown,soft,small,tree,inflorescences
+broccoli,vegetable,green,white,unknown,soft,small,tree,inflorescences
+carrot,vegetable,orange,orange,sweet,soft,medium,thin,root
+patata,vegetable,yellow,yellow,unknown,soft,small,circular,tuber
+patata,vegetable,brown,yellow,unknown,soft,small,circular,tuber
+patata,vegetable,yellow,white,unknown,soft,small,circular,tuber
+patata,vegetable,brown,white,unknown,soft,small,circular,tuber
+ginger,vegetable,gray,white,spicy,soft,small,root,rhizome
+cassava,vegetable,brown,white,unknown,hard,very big,root,root
+onion,vegetable,purple,white,unknown,soft,small,circular,bulb
