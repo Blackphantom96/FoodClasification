@@ -1,5 +1,5 @@
 ;;Templates
-; (deftemplate FruitVegetable (slot type))
+; (deftemplate FruitVegetable (slot kind))
 ; (deftemplate ExternalColor (slot eColor))
 ; (deftemplate InternalColor (slot iColor))
 ; (deftemplate Taste (slot taste))

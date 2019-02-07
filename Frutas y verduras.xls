@@ -1,0 +1,2105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?mso-application 
+			progid="Excel.Sheet"
+		?><Workbook xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+<Styles>
+<Style ss:ID="s16" ss:Name="attribute_cell">
+<Borders>
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+</Borders>
+</Style>
+<Style ss:ID="s17" ss:Name="attribute_header">
+<Borders>
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+</Borders>
+<Font ss:Bold="1"/>
+</Style>
+</Styles>
+<Worksheet ss:Name="Freeplane Sheet">
+<Table>
+<Row>
+<Cell ss:Index="1">
+<Data ss:Type="String">Frutas y verduras</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="2">
+<Data ss:Type="String">Verduras</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="3">
+<Data ss:Type="String">Hoja</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="4">
+<Data ss:Type="String">Acelgas</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="4">
+<Data ss:Type="String">Apio</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="4">
+<Data ss:Type="String">Canonigos</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="4">
+<Data ss:Type="String">Coles</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="4">
+<Data ss:Type="String">Endivias</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="4">
+<Data ss:Type="String">Escarolas</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="4">
+<Data ss:Type="String">Espinacas</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="4">
+<Data ss:Type="String">Lechugas</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">External Color</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Green</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Internal Color</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">White</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Taste</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Unknown</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Contexture</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Soft</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Size</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Medium</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Shape</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Leaf</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="3">
+<Data ss:Type="String">Tallo</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="4">
+<Data ss:Type="String">Cardos</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="4">
+<Data ss:Type="String">Esparragos</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="3">
+<Data ss:Type="String">Inflorecencias</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="4">
+<Data ss:Type="String">Coliflores</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">External Color</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">White</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Internal Color</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">White</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Taste</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Unknown</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Contexture</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Soft</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Size</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Small</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Shape</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Tree</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="4">
+<Data ss:Type="String">Brocoli</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">External Color</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Green</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Internal Color</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">White</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Taste</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Unknown</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Contexture</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Soft</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Size</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Small</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Shape</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Tree</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="3">
+<Data ss:Type="String">Yemas</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="4">
+<Data ss:Type="String">Alcachofas</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="4">
+<Data ss:Type="String">Coles de Bruselas</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="4">
+<Data ss:Type="String">Verduras de brote</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="3">
+<Data ss:Type="String">Semilla</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="4">
+<Data ss:Type="String">Guisante</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="4">
+<Data ss:Type="String">Habas</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="4">
+<Data ss:Type="String">Judia verde</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="4">
+<Data ss:Type="String">Soja</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="3">
+<Data ss:Type="String">Raiz</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="4">
+<Data ss:Type="String">Nabo</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="4">
+<Data ss:Type="String">Rabano</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="4">
+<Data ss:Type="String">Zanahoria</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">External Color</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Orange</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Internal Color</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Orange</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Taste</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Sweet</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Contexture</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Soft</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Size</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Medium</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Shape</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Thin</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="4">
+<Data ss:Type="String">Mandioca</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Yuca</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="4">
+<Data ss:Type="String">Mafafa</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="4">
+<Data ss:Type="String">Arracacha</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Apio</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Zanahoria blanca</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="4">
+<Data ss:Type="String">Chirivia</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="3">
+<Data ss:Type="String">Tuberculo</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="4">
+<Data ss:Type="String">Patata</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">External Color</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Yellow</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Brown</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Internal Color</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Yellow</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">White</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Taste</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Unknown</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Contexture</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Soft</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Size</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Small</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Shape</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Sphere</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="4">
+<Data ss:Type="String">Boniato</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="4">
+<ss:Data ss:Type="String">
+<p>
+      <b>ni</b>ame
+    </p>
+</ss:Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="3">
+<Data ss:Type="String">Cormo</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="4">
+<Data ss:Type="String">Taro</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Malanga</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Papa balusa</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Otoe</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Yautia coco</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Ocumo chino</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="3">
+<Data ss:Type="String">Bulbo</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="4">
+<Data ss:Type="String">Ajo</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="4">
+<Data ss:Type="String">Cebolla</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="4">
+<Data ss:Type="String">Colirrabano</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="4">
+<Data ss:Type="String">Hinojo</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="4">
+<Data ss:Type="String">Remolacha</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="3">
+<Data ss:Type="String">Fruto</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="4">
+<Data ss:Type="String">Berenjena</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="4">
+<Data ss:Type="String">Calabacin</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="4">
+<Data ss:Type="String">Calabaza</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Zapallo</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Auyama</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Ahuyama</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="4">
+<Data ss:Type="String">Pepino</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="4">
+<Data ss:Type="String">Pimiento</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="4">
+<Data ss:Type="String">Tomate</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="3">
+<Data ss:Type="String">Rizomas</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="4">
+<Data ss:Type="String">Jengibre</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">External Color</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Gray</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Internal Color</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">White</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Taste</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Spicy</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Contexture</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Soft</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Size</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Small</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Shape</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Root</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="2">
+<Data ss:Type="String">Frutas</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="3">
+<Data ss:Type="String">Neutras</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="4">
+<Data ss:Type="String">Aceituna</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="4">
+<Data ss:Type="String">Avellana</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="4">
+<Data ss:Type="String">Coco</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="4">
+<Data ss:Type="String">Mani</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="4">
+<Data ss:Type="String">Cacao</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="4">
+<Data ss:Type="String">Aguacate</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">External Color</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Green</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Internal Color</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">White</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Taste</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Unknown</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Contexture</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Very soft</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Size</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Medium</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Shape</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Oval</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="4">
+<ss:Data ss:Type="String">
+<p>
+      Casta<b>ni</b>a
+    </p>
+</ss:Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="4">
+<Data ss:Type="String">Almendra</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="4">
+<Data ss:Type="String">Nuez</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="4">
+<Data ss:Type="String">Macadamia</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="3">
+<Data ss:Type="String">Dulces</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="4">
+<Data ss:Type="String">Yvapuru</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="4">
+<Data ss:Type="String">Damasco</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="4">
+<Data ss:Type="String">Banano</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">External Color</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Yellow</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Internal Color</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">White</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Taste</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Sweet</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Contexture</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Soft</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Size</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Medium</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Shape</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Thin</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="4">
+<Data ss:Type="String">Higo</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="4">
+<Data ss:Type="String">Cereza</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">External Color</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Red</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Internal Color</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Red</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Taste</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Sweet</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Contexture</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Soft</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Size</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Very small</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Shape</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Sphere</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="4">
+<Data ss:Type="String">Acerola</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="4">
+<Data ss:Type="String">Chirimoya</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="4">
+<Data ss:Type="String">Granada</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="4">
+<Data ss:Type="String">Grosella</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="4">
+<Data ss:Type="String">Melon</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">External Color</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Green</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Internal Color</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Yellow</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Orange</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Taste</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Sweet</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Contexture</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Soft</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Size</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Big</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Shape</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Sphere</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="4">
+<Data ss:Type="String">Nispero</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="4">
+<Data ss:Type="String">Mamon</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="4">
+<Data ss:Type="String">Pera</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">External Color</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Green</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Red</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Internal Color</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">White</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Taste</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Sweet</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Contexture</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Soft</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Size</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Small</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Shape</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Oval</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="4">
+<Data ss:Type="String">Remolacha</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="4">
+<Data ss:Type="String">Sandia</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">External Color</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Green</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Internal Color</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Red</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Taste</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Sweet</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Contexture</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Soft</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Size</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Very big</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Shape</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Oval</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="4">
+<Data ss:Type="String">Uva dulce</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="4">
+<Data ss:Type="String">Manzana roja</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">External Color</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Red</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Internal Color</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">White</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Taste</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Sweet</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Contexture</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Soft</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Size</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Small</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Shape</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Sphere</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="3">
+<Data ss:Type="String">Acidas</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="4">
+<ss:Data ss:Type="String">
+<p>
+      Pi<b>ni</b>a
+    </p>
+</ss:Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">External Color</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Yellow</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Internal Color</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Yellow</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Taste</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Sweet</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Acid</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Contexture</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Soft</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Size</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Big</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Shape</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Oval</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="4">
+<Data ss:Type="String">Kiwi</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">External Color</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Brown</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Internal Color</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Green</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Taste</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Sweet</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Acid</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Contexture</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Soft</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Size</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Small</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Shape</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Sphere</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="4">
+<Data ss:Type="String">Mburucuya</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="4">
+<Data ss:Type="String">Mora</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="4">
+<Data ss:Type="String">Naranja</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">External Color</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Orange</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Internal Color</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Orange</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Taste</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Acid</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Sweet</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Contexture</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Soft</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Size</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Small</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Shape</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Sphere</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="4">
+<Data ss:Type="String">Uva</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">External Color</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Green</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Purple</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Internal Color</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Yellow</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">White</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Taste</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Acid</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Sweet</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Contexture</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Soft</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Size</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Very small</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Shape</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Sphere</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="4">
+<Data ss:Type="String">Limon</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">External Color</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Green</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Internal Color</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Green</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Taste</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Acid</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Contexture</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Soft</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Size</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Small</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Shape</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Sphere</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="4">
+<Data ss:Type="String">Pomelo</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="4">
+<Data ss:Type="String">Toronja</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="4">
+<Data ss:Type="String">Arandano</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="3">
+<Data ss:Type="String">Semiacidas</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="4">
+<Data ss:Type="String">Tomate</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">External Color</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Red</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Internal Color</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Red</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Taste</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Acid</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Sweet</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Contexture</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Soft</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Size</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Small</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Shape</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Sphere</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="4">
+<Data ss:Type="String">Mandarina</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">External Color</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Orange</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Internal Color</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Orange</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Taste</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Sweet</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Acid</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Contexture</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Soft</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Size</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Small</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Shape</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Sphere</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="4">
+<Data ss:Type="String">Granada</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="4">
+<Data ss:Type="String">Durazno</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">External Color</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Yellow</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Red</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Internal Color</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Yellow</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Taste</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Sweet</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Acid</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Contexture</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Soft</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Size</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Small</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Shape</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Sphere</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="4">
+<Data ss:Type="String">Frutilla</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="4">
+<Data ss:Type="String">Manzana verde</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">External Color</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Green</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Internal Color</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">White</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Taste</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Acid</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Sweet</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Contexture</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Soft</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Size</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Small</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Shape</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Sphere</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="4">
+<Data ss:Type="String">Ciruela</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">External Color</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Red</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Internal Color</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Yellow</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Red</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Taste</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Sweet</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Acid</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Contexture</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Soft</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Size</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Small</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="5">
+<Data ss:Type="String">Shape</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="6">
+<Data ss:Type="String">Sphere</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="4">
+<Data ss:Type="String">Guayaba</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="4">
+<Data ss:Type="String">Membrillo</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="4">
+<Data ss:Type="String">Mango</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="4">
+<Data ss:Type="String">Frambuesa</Data>
+</Cell>
+</Row>
+<Row>
+<Cell ss:Index="4">
+<Data ss:Type="String">Lima</Data>
+</Cell>
+</Row>
+</Table>
+</Worksheet>
+</Workbook>
