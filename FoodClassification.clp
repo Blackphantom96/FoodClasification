@@ -1,60 +1,68 @@
 ;;Templates
-(deftemplate Element (slot eColor) (slot iColor ) (slot taste) (slot class (type STRING))  (slot contexture (type STRING)) (slot size (type STRING)) (slot shape (type STRING)) (slot inSeed (type STRING)) (slot subcategory (type STRING)) )
+(deftemplate Element (multislot eColor) (multislot iColor ) (multislot taste) (slot class)  (slot contexture) (slot size) (slot shape) (slot name))
 
 ;;;;;;;;;;;;;;;;;;;;;;Rules;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;;;Fruits
-(defrule  rule_olive'description' (Element (class fruit)(eColor green|purple)(iColor green)(taste sour)(contexture medium)(size small)(shape circular)(inSeed y) )=>(printout t 'olive' crlf))
-(defrule  rule_coconut'description' (Element (class fruit)(eColor brown)(iColor white)(taste unknown)(contexture hard)(size big)(shape circular)(inSeed n) )=>(printout t 'coconut' crlf))
-(defrule  rule_cocoa'description' (Element (class fruit)(eColor brown|yellow)(iColor white|brown)(taste bitter)(contexture medium)(size medium)(shape oval)(inSeed y) )=>(printout t 'cocoa' crlf))
-(defrule  rule_avocado'description' (Element (class fruit)(eColor green|black)(iColor green|yellow)(taste unknown)(contexture soft)(size medium)(shape oval)(inSeed y) )=>(printout t 'avocado' crlf))
-(defrule  rule_almond'description' (Element (class fruit)(eColor brown)(iColor white)(taste unknown)(contexture hard)(size small)(shape oval)(inSeed y) )=>(printout t 'almond' crlf))
-(defrule  rule_peanut'description' (Element (class fruit)(eColor yellow)(iColor yellow)(taste unknown)(contexture hard)(size small)(shape oval)(inSeed y) )=>(printout t 'peanut' crlf))
-(defrule  rule_banana'description' (Element (class fruit)(eColor yellow)(iColor white)(taste sweet)(contexture soft)(size medium)(shape thin)(inSeed n) )=>(printout t 'banana' crlf))
-(defrule  rule_cherry'description' (Element (class fruit)(eColor red)(iColor red)(taste sweet)(contexture medium)(size small)(shape circular)(inSeed y) )=>(printout t 'cherry' crlf))
-(defrule  rule_melon'description' (Element (class fruit)(eColor orange)(iColor orange)(taste sweet)(contexture medium)(size big)(shape circular)(inSeed y) )=>(printout t 'melon' crlf))
-(defrule  rule_pear'description' (Element (class fruit)(eColor green|brown)(iColor white)(taste sweet)(contexture medium)(size medium)(shape circular)(inSeed y) )=>(printout t 'pear' crlf))
-(defrule  rule_water_melon'description' (Element (class fruit)(eColor green)(iColor red)(taste sweet)(contexture medium)(size big)(shape oval)(inSeed y) )=>(printout t 'water_melon' crlf))
-(defrule  rule_grape'description' (Element (class fruit)(eColor green|purple|red)(iColor green)(taste sweet|sour)(contexture soft)(size small)(shape circular)(inSeed y) )=>(printout t 'grape' crlf))
-(defrule  rule_pineapple'description' (Element (class fruit)(eColor yellow)(iColor yellow)(taste sweet|sour)(contexture medium)(size big)(shape oval)(inSeed y) )=>(printout t 'pineapple' crlf))
-(defrule  rule_kiwi'description' (Element (class fruit)(eColor brown)(iColor green)(taste sweet|sour)(contexture medium)(size medium)(shape circular)(inSeed y) )=>(printout t 'kiwi' crlf))
-(defrule  rule_passion_fruit'description' (Element (class fruit)(eColor yellow)(iColor yellow)(taste sour)(contexture medium)(size medium)(shape circular)(inSeed y) )=>(printout t 'passion_fruit' crlf))
-(defrule  rule_orange'description' (Element (class fruit)(eColor orange)(iColor orange)(taste sweet|sour)(contexture medium)(size medium)(shape circular)(inSeed y) )=>(printout t 'orange' crlf))
-(defrule  rule_lemon'description' (Element (class fruit)(eColor yellow|green)(iColor yellow|green)(taste sour)(contexture medium)(size medium)(shape circular)(inSeed y) )=>(printout t 'lemon' crlf))
-(defrule  rule_tomato'description' (Element (class fruit)(eColor red)(iColor red)(taste sour)(contexture medium)(size medium)(shape circular)(inSeed y) )=>(printout t 'tomato' crlf))
-(defrule  rule_mandarin'description' (Element (class fruit)(eColor orange|green)(iColor orange)(taste sweet|sour)(contexture medium)(size medium)(shape circular)(inSeed y) )=>(printout t 'mandarin' crlf))
-(defrule  rule_peach'description' (Element (class fruit)(eColor red)(iColor yellow)(taste sweet)(contexture medium)(size medium)(shape circular)(inSeed y) )=>(printout t 'peach' crlf))
-(defrule  rule_guayaba'description' (Element (class fruit)(eColor yellow|green)(iColor red)(taste sweet|sour)(contexture medium)(size medium)(shape circular)(inSeed y) )=>(printout t 'guayaba' crlf))
-(defrule  rule_mango'description' (Element (class fruit)(eColor green|yellow|red)(iColor yellow|green)(taste sweet|sour)(contexture medium)(size medium)(shape circular)(inSeed y) )=>(printout t 'mango' crlf))
-(defrule  rule_raspberry'description' (Element (class fruit)(eColor red|purple)(iColor red|purple)(taste sour)(contexture medium)(size small)(shape circular)(inSeed y) )=>(printout t 'raspberry' crlf))
-(defrule  rule_apple'description' (Element (class fruit)(eColor green|red|yellow)(iColor white)(taste sweet|sour)(contexture medium)(size medium)(shape circular)(inSeed y) )=>(printout t 'apple' crlf))
-
-
+(deffacts Fruits
+  (Element (class fruit)(eColor green purple)(iColor green)(taste sour)(contexture medium)(size small)(shape circular) (name olive)) 
+  (Element (class fruit)(eColor brown)(iColor white)(taste unknown)(contexture hard)(size big)(shape circular) (name coconut)) 
+  (Element (class fruit)(eColor brown yellow)(iColor white brown)(taste bitter)(contexture medium)(size medium)(shape oval) (name cocoa)) 
+  (Element (class fruit)(eColor green black)(iColor green yellow)(taste unknown)(contexture soft)(size medium)(shape oval) (name avocado)) 
+  (Element (class fruit)(eColor brown)(iColor white)(taste unknown)(contexture hard)(size small)(shape oval) (name almond)) 
+  (Element (class fruit)(eColor yellow)(iColor yellow)(taste unknown)(contexture hard)(size small)(shape oval) (name peanut)) 
+  (Element (class fruit)(eColor yellow)(iColor white)(taste sweet)(contexture soft)(size medium)(shape thin) (name banana)) 
+  (Element (class fruit)(eColor red)(iColor red)(taste sweet)(contexture medium)(size small)(shape circular) (name cherry)) 
+  (Element (class fruit)(eColor orange)(iColor orange)(taste sweet)(contexture medium)(size big)(shape circular) (name melon)) 
+  (Element (class fruit)(eColor green brown)(iColor white)(taste sweet)(contexture medium)(size medium)(shape circular) (name pear)) 
+  (Element (class fruit)(eColor green)(iColor red)(taste sweet)(contexture medium)(size big)(shape oval) (name water_melon)) 
+  (Element (class fruit)(eColor green purple red)(iColor green)(taste sweet sour)(contexture soft)(size small)(shape circular) (name grape)) 
+  (Element (class fruit)(eColor yellow)(iColor yellow)(taste sweet sour)(contexture medium)(size big)(shape oval) (name pineapple)) 
+  (Element (class fruit)(eColor brown)(iColor green)(taste sweet sour)(contexture medium)(size medium)(shape circular) (name kiwi)) 
+  (Element (class fruit)(eColor yellow)(iColor yellow)(taste sour)(contexture medium)(size medium)(shape circular) (name passion_fruit)) 
+  (Element (class fruit)(eColor orange)(iColor orange)(taste sweet sour)(contexture medium)(size medium)(shape circular) (name orange)) 
+  (Element (class fruit)(eColor yellow green)(iColor yellow green)(taste sour)(contexture medium)(size medium)(shape circular) (name lemon)) 
+  (Element (class fruit)(eColor red)(iColor red)(taste sour)(contexture medium)(size medium)(shape circular) (name tomato)) 
+  (Element (class fruit)(eColor orange green)(iColor orange)(taste sweet sour)(contexture medium)(size medium)(shape circular) (name mandarin)) 
+  (Element (class fruit)(eColor red)(iColor yellow)(taste sweet)(contexture medium)(size medium)(shape circular) (name peach)) 
+  (Element (class fruit)(eColor yellow green)(iColor red)(taste sweet sour)(contexture medium)(size medium)(shape circular) (name guayaba)) 
+  (Element (class fruit)(eColor green yellow red)(iColor yellow green)(taste sweet sour)(contexture medium)(size medium)(shape circular) (name mango)) 
+  (Element (class fruit)(eColor red purple)(iColor red purple)(taste sour)(contexture medium)(size small)(shape circular) (name raspberry)) 
+  (Element (class fruit)(eColor green red yellow)(iColor white)(taste sweet sour)(contexture medium)(size medium)(shape circular) (name apple)) 
+)
 ;;Vegetables;;
-(defrule  rule_lettice'description' (Element (class vegetable)(eColor green)(iColor white)(taste unknown)(contexture soft)(size medium)(shape leaf)(inSeed n)(subcategory leaf) )=>(printout t 'lettice' crlf))
-(defrule  rule_cauliflower'description' (Element (class vegetable)(eColor white)(iColor white)(taste unknown)(contexture soft)(size small)(shape tree)(inSeed n)(subcategory inflorescences) )=>(printout t 'cauliflower' crlf))
-(defrule  rule_broccoli'description' (Element (class vegetable)(eColor green)(iColor white)(taste unknown)(contexture soft)(size small)(shape tree)(inSeed n)(subcategory inflorescences) )=>(printout t 'broccoli' crlf))
-(defrule  rule_carrot'description' (Element (class vegetable)(eColor orange)(iColor orange)(taste sweet)(contexture medium)(size medium)(shape thin)(inSeed n)(subcategory root) )=>(printout t 'carrot' crlf))
-(defrule  rule_patata'description' (Element (class vegetable)(eColor yellow|brown)(iColor yellow|white)(taste unknown)(contexture medium)(size small)(shape circular)(inSeed n)(subcategory tuber) )=>(printout t 'patata' crlf))
-(defrule  rule_ginger'description' (Element (class vegetable)(eColor gray)(iColor white)(taste spicy)(contexture medium)(size small)(shape root)(inSeed n)(subcategory rhizome) )=>(printout t 'ginger' crlf))
-(defrule  rule_cassava'description' (Element (class vegetable)(eColor brown)(iColor white)(taste unknown)(contexture hard)(size big)(shape root)(inSeed n)(subcategory root) )=>(printout t 'cassava' crlf))
-(defrule  rule_onion'description' (Element (class vegetable)(eColor purple)(iColor white)(taste unknown)(contexture medium)(size small)(shape circular)(inSeed n)(subcategory bulb) )=>(printout t 'onion' crlf))
-
+(deffacts Vegetables
+  (Element (class vegetable)(eColor green)(iColor white)(taste unknown)(contexture soft)(size medium)(shape leaf) (name lettice)) 
+  (Element (class vegetable)(eColor white)(iColor white)(taste unknown)(contexture soft)(size small)(shape tree) (name cauliflower)) 
+  (Element (class vegetable)(eColor green)(iColor white)(taste unknown)(contexture soft)(size small)(shape tree) (name broccoli)) 
+  (Element (class vegetable)(eColor orange)(iColor orange)(taste unknown)(contexture medium)(size medium)(shape thin) (name carrot)) 
+  (Element (class vegetable)(eColor yellow brown)(iColor yellow white)(taste unknown)(contexture medium)(size small)(shape circular) (name patata)) 
+  (Element (class vegetable)(eColor gray)(iColor white)(taste spicy)(contexture medium)(size small)(shape root) (name ginger)) 
+  (Element (class vegetable)(eColor brown)(iColor white)(taste unknown)(contexture hard)(size big)(shape root) (name cassava)) 
+  (Element (class vegetable)(eColor purple)(iColor white)(taste unknown)(contexture medium)(size small)(shape circular) (name onion)) 
+)
 ;;;Questions
+
+(defrule questionTaste
+=>  (printout t "what is the taste?" crlf)
+    (bind ?x (sym-cat (read)))
+    (assert (taste ?x))
+)
+
+(defrule questionSubCategory
+=>  (printout t "what is the subCategory?" crlf)
+    (bind ?x (read))
+    (assert (subCategory ?x))
+)
 
 (defrule questionShape
 ?e <- (Element (shape nil))
 =>  (printout t "What is the shape?" crlf)
-    (bind ?shapeV (read))
-    (modify ?e (shape ?shapeV))
+    (bind ?x (sym-cat (read)))
+    (assert )
 )
 
-(defrule questioninSeed
-?e <- (Element (inSeed nil))
-=>  (printout t "have inside seed? (y/n)" crlf)
-    (bind ?inSeedV (read))
-    (modify ?e (inSeed ?inSeedV))
-)
+
 
 (defrule questionClass
 ?e <- (Element (class nil))
@@ -94,46 +102,52 @@
     (modify ?e (size ?sizeV))
 )
 
-(defrule questionSubCategory
-?e <- (Element (subcategory nil) {class != fruit})
-=>  (printout t "what is the subCategory? (. to skip)" crlf)
-    (bind ?subCategoryV (read))
-    (if (= ?subCategoryV ".") then
-      (bind ?subCategoryV nil)
-    )
-    (modify ?e (subcategory ?subCategoryV))
-)
 
-(defrule questionTaste
-?e <- (Element (taste nil))
-=>  (printout t "what is the taste?" crlf)
-    (bind ?tasteV (read))
-    (modify ?e (taste ?tasteV))
-    (printout t ?e.taste crlf )
-)
+
+
 
 ;;Logical
+(defrule questionSeed
+=>  (printout t "have seed(s)? (y/n)" crlf)
+    (bind ?x (read))
+    (assert (seed ?x))
+    (if (eq ?x y) then
+      (assert (class fruit))
+    else
+      (assert (class vegetable))
+    )
+    
+)
+
 (defrule rule_subCategory "the vegetables only have this category" 
-?e <- (Element {subcategory != nil}) 
-=> (modify ?e (class vegetable))
+(subcategory ?x&:(neq ?x nil))
+=> (assert (class vegetable))
 )
 
 (defrule rule_sourFruit "no exist a sour vegetable" 
-?e <- (Element (taste sour))
-=> (modify ?e (class fruit))
+(taste sour)
+=> (assert (class fruit))
 )
 
 (defrule rule_spicyVegetable "no exist a spicy fruit" 
-?e <- (Element (taste spicy))
-=> (modify ?e (class vegetable))
+(taste spicy)
+=> (assert (class vegetable))
+)
+
+(defrule rule_fruitsHaveSeed "fruit has seed"
+(seed ?x&:(eq ?x y))
+=> (class fruit)
 )
 
 
 ;;init app
 (reset)
-(watch all)
+; (watch all)
 (assert (Element))
 ; (assert (Element (subcategory root) ))
 ; (assert (Element (taste (create$ sour sweet ))))
 
 (run)
+
+;https://www.cocinadelirante.com/tips/diferencia-entre-fruta-y-verdura
+;https://caymansseo.com/diferencias-entre-frutas-verduras-hortalizas
