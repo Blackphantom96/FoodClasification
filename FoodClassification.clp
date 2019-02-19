@@ -149,7 +149,7 @@
 (contexture ?c)
 (size ?s)
 (shape ?sh)
-(Element (class ?x)(eColor ?ec) (iColor ?ic) (taste ?t) (contexture ?c) (size ?s) (shape ?sh) (name ?na) )
+(Element (class ?x)(eColor $? ?ec $?) (iColor $? ?ic $?) (taste $? ?t $?) (contexture ?c) (size ?s) (shape ?sh) (name ?na) )
 => (printout t "You think in " ?na crlf)
 )
 
