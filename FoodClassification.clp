@@ -44,72 +44,69 @@
 ;;;Questions
 
 (defrule questionTaste
+(declare (salience 10))
 =>  (printout t "what is the taste?" crlf)
     (bind ?x (sym-cat (read)))
     (assert (taste ?x))
 )
 
 (defrule questionSubCategory
+(class vegetable)
 =>  (printout t "what is the subCategory?" crlf)
-    (bind ?x (read))
+    (bind ?x (sym-cat (read)))
     (assert (subCategory ?x))
 )
 
 (defrule questionShape
-?e <- (Element (shape nil))
 =>  (printout t "What is the shape?" crlf)
     (bind ?x (sym-cat (read)))
-    (assert )
+    (assert (shape ?x))
 )
 
 
 
 (defrule questionClass
-?e <- (Element (class nil))
+(declare (salience -100))
+(class ?x&:(neq ?x nil))
 =>  (printout t "Is vegetable or fruit?" crlf)
-    (bind ?classV (read))
-    (modify ?e (class ?classV))
+    (bind ?x (sym-cat (read)))
+    (assert (class ?x ))
 )
 
 
 (defrule questionEColor
-?e <- (Element (eColor nil))
 =>  (printout t "what is the external color?" crlf)
-    (bind ?eColorV (read))
-    (modify ?e (eColor ?eColorV))
+    (bind ?x (sym-cat (read)))
+    (assert  (eColor ?x))
 )
 
 
 (defrule questionIColor
-?e <- (Element (iColor nil))
 =>  (printout t "what is the internal color?" crlf)
-    (bind ?iColorV (read))
-    (modify ?e (iColor ?iColorV))
+    (bind ?x (sym-cat (read)))
+    (assert  (iColor ?x))
 )
 
 (defrule questionContexture
-?e <- (Element (contexture nil))
 =>  (printout t "what is the contexture?" crlf)
-    (bind ?contextureV (read))
-    (modify ?e (contexture ?contextureV))
+    (bind ?x (sym-cat (read)))
+    (assert  (contexture ?x))
 )
 
 
 (defrule questionSize
-?e <- (Element (size nil))
 =>  (printout t "What is the size?" crlf)
-    (bind ?sizeV (read))
-    (modify ?e (size ?sizeV))
+    (bind ?x (sym-cat (read)))
+    (assert  (size ?x))
 )
-
-
 
 
 
 ;;Logical
 (defrule questionSeed
-=>  (printout t "have seed(s)? (y/n)" crlf)
-    (bind ?x (read))
+(declare (salience 100))
+=>  (printout t "have seed(s) or is a seed? (y/n)" crlf)
+    (bind ?x (sym-cat (read)))
     (assert (seed ?x))
     (if (eq ?x y) then
       (assert (class fruit))
@@ -120,33 +117,45 @@
 )
 
 (defrule rule_subCategory "the vegetables only have this category" 
+(declare (salience 100))
 (subcategory ?x&:(neq ?x nil))
 => (assert (class vegetable))
 )
 
 (defrule rule_sourFruit "no exist a sour vegetable" 
+(declare (salience 100))
 (taste sour)
 => (assert (class fruit))
 )
 
+(defrule rule_shapeRoot "no exist a fruit with fruit" 
+(declare (salience 100))
+(shape root)
+=> (assert (class vegetable))
+)
+
 (defrule rule_spicyVegetable "no exist a spicy fruit" 
+(declare (salience 100))
 (taste spicy)
 => (assert (class vegetable))
 )
 
-(defrule rule_fruitsHaveSeed "fruit has seed"
-(seed ?x&:(eq ?x y))
-=> (class fruit)
+(defrule final_rule "final rule"
+(declare (salience -1000))
+(class ?x)
+(eColor ?ec)
+(iColor ?ic)
+(taste ?t)
+(contexture ?c)
+(size ?s)
+(shape ?sh)
+(Element (class ?x)(eColor ?ec) (iColor ?ic) (taste ?t) (contexture ?c) (size ?s) (shape ?sh) (name ?na) )
+=> (printout t "You think in " ?na crlf)
 )
-
 
 ;;init app
 (reset)
 ; (watch all)
-(assert (Element))
-; (assert (Element (subcategory root) ))
-; (assert (Element (taste (create$ sour sweet ))))
-
 (run)
 
 ;https://www.cocinadelirante.com/tips/diferencia-entre-fruta-y-verdura
